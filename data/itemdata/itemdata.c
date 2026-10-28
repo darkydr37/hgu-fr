@@ -78,7 +78,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MASTER_BALL] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -143,7 +143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ULTRA_BALL] =
 {
-    ITEM_PRICE(300),
+    ITEM_PRICE(800),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -208,7 +208,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GREAT_BALL] =
 {
-    ITEM_PRICE(200),
+    ITEM_PRICE(600),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -273,7 +273,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POKE_BALL] =
 {
-    ITEM_PRICE(100),
+    ITEM_PRICE(200),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -403,7 +403,7 @@ const ITEMDATA __data[] =
 
 [ITEM_NET_BALL] =
 {
-    ITEM_PRICE(500),
+    ITEM_PRICE(1000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -923,7 +923,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HEAL_BALL] =
 {
-    ITEM_PRICE(150),
+    ITEM_PRICE(300),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1833,7 +1833,7 @@ const ITEMDATA __data[] =
 
 [ITEM_REVIVE] =
 {
-    ITEM_PRICE(500),
+    ITEM_PRICE(2000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1898,7 +1898,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_REVIVE] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(4000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -2483,7 +2483,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ETHER] =
 {
-    ITEM_PRICE(250),
+    ITEM_PRICE(1200),
     .holdEffect = 0,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -2548,7 +2548,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ETHER] =
 {
-    ITEM_PRICE(500),
+    ITEM_PRICE(2000),
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -2613,7 +2613,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ELIXIR] =
 {
-    ITEM_PRICE(750),
+    ITEM_PRICE(3000),
     .holdEffect = 0,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -2678,7 +2678,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ELIXIR] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(4500),
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -2873,7 +2873,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SACRED_ASH] =
 {
-    ITEM_PRICE(2500),
+    ITEM_PRICE(200),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -2938,7 +2938,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HP_UP] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3003,7 +3003,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PROTEIN] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3068,7 +3068,7 @@ const ITEMDATA __data[] =
 
 [ITEM_IRON] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3133,7 +3133,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CARBOS] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3198,7 +3198,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CALCIUM] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3263,7 +3263,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RARE_CANDY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3328,7 +3328,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PP_UP] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3393,7 +3393,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ZINC] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3458,7 +3458,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PP_MAX] =
 {
-    ITEM_PRICE(5000),
+    ITEM_PRICE(10000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -6058,7 +6058,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HEART_SCALE] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(100),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -7293,7 +7293,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GRISEOUS_ORB] =
 {
-    ITEM_PRICE(25000),
+    ITEM_PRICE(10000),
     .holdEffect = HOLD_EFFECT_GIRATINA_BOOST,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -7307,7 +7307,7 @@ const ITEMDATA __data[] =
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -9698,7 +9698,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHERI_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_PRZ_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 1,
@@ -9763,7 +9763,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHESTO_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_SLP_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 2,
@@ -9828,7 +9828,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PECHA_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_PSN_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 3,
@@ -9893,7 +9893,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RAWST_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_BRN_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 4,
@@ -9958,7 +9958,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ASPEAR_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_FRZ_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 5,
@@ -10023,7 +10023,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LEPPA_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_PP_RESTORE,
     .holdEffectParam = 10,
     .pluckEffect = 6,
@@ -10088,7 +10088,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ORAN_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_HP_RESTORE,
     .holdEffectParam = 10,
     .pluckEffect = 7,
@@ -10153,7 +10153,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PERSIM_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_CONFUSE_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 8,
@@ -10218,7 +10218,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LUM_BERRY] =
 {
-    ITEM_PRICE(10),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_STATUS_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 9,
@@ -10283,7 +10283,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SITRUS_BERRY] =
 {
-    ITEM_PRICE(50),
+    ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_HP_PCT_RESTORE,
     .holdEffectParam = 25,
     .pluckEffect = 10,
@@ -14378,7 +14378,7 @@ const ITEMDATA __data[] =
 
 [ITEM_KINGS_ROCK] =
 {
-    ITEM_PRICE(3000),
+    ITEM_PRICE(10000),
     .holdEffect = HOLD_EFFECT_SOMETIMES_FLINCH,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -14390,9 +14390,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -14405,7 +14405,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -14508,7 +14508,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AMULET_COIN] =
 {
-    ITEM_PRICE(3000),
+    ITEM_PRICE(30000),
     .holdEffect = HOLD_EFFECT_MONEY_UP,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -14520,9 +14520,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -14535,7 +14535,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -14715,9 +14715,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -14730,7 +14730,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -14780,9 +14780,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -14795,7 +14795,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -15170,9 +15170,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -15185,7 +15185,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -15495,9 +15495,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -15510,7 +15510,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -15690,9 +15690,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -15705,7 +15705,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -15950,9 +15950,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -15965,7 +15965,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -16405,9 +16405,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -16420,7 +16420,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -21085,9 +21085,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -21100,7 +21100,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -21203,7 +21203,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RAZOR_CLAW] =
 {
-    ITEM_PRICE(3000),
+    ITEM_PRICE(15000),
     .holdEffect = HOLD_EFFECT_CRITRATE_UP,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -30303,7 +30303,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GRACIDEA] =
 {
-    ITEM_PRICE(2500),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34723,7 +34723,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RED_ORB] =
 {
-    ITEM_PRICE(50000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34731,13 +34731,13 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_ITEMS,
+    .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -34788,7 +34788,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BLUE_ORB] =
 {
-    ITEM_PRICE(50000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34796,13 +34796,13 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_ITEMS,
+    .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -40183,14 +40183,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM093] =
 {
-    ITEM_PRICE(15000),
+    ITEM_PRICE(32000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -40248,14 +40248,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM094] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(32000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -40313,14 +40313,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM095] =
 {
-    ITEM_PRICE(15000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -42653,7 +42653,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GENGARITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -42718,7 +42718,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GARDEVOIRITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -42783,7 +42783,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AMPHAROSITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -42848,7 +42848,7 @@ const ITEMDATA __data[] =
 
 [ITEM_VENUSAURITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -42913,7 +42913,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHARIZARDITE_X] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -42978,7 +42978,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BLASTOISINITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43043,7 +43043,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MEWTWONITE_X] =
 {
-    ITEM_PRICE(50000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43108,7 +43108,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MEWTWONITE_Y] =
 {
-    ITEM_PRICE(50000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43173,7 +43173,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BLAZIKENITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43238,7 +43238,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MEDICHAMITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43303,7 +43303,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HOUNDOOMINITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43368,7 +43368,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AGGRONITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43433,7 +43433,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BANETTITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43498,7 +43498,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TYRANITARITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43563,7 +43563,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SCIZORITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43628,7 +43628,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PINSIRITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43693,7 +43693,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AERODACTYLITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43758,7 +43758,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LUCARIONITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43823,7 +43823,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABOMASITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43888,7 +43888,7 @@ const ITEMDATA __data[] =
 
 [ITEM_KANGASKHANITE] =
 {
-    ITEM_PRICE(15000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -43953,7 +43953,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GYARADOSITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44018,7 +44018,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABSOLITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44083,7 +44083,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHARIZARDITE_Y] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44148,7 +44148,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ALAKAZITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44213,7 +44213,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HERACRONITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44278,7 +44278,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAWILITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44343,7 +44343,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MANECTITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44408,7 +44408,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GARCHOMPITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44473,7 +44473,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LATIASITE] =
 {
-    ITEM_PRICE(30000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44538,7 +44538,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LATIOSITE] =
 {
-    ITEM_PRICE(30000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -44671,8 +44671,8 @@ const ITEMDATA __data[] =
     ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_BOOST_DEF_ON_PHYSICAL_HIT,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = 17, // STEAL_EFFECT_DEF_UP
+    .flingEffect = 17, // STEAL_EFFECT_DEF_UP
     .flingPower = 30,
     .naturalGiftPower = (NATURAL_GIFT_POWER_GEN < 6 ? 0 : 100),
     .naturalGiftType = 31,
@@ -44736,8 +44736,8 @@ const ITEMDATA __data[] =
     ITEM_PRICE(80),
     .holdEffect = HOLD_EFFECT_BOOST_SPDEF_ON_SPECIAL_HIT,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = 20, // STEAL_EFFECT_SPDEF_UP
+    .flingEffect = 20, // STEAL_EFFECT_SPDEF_UP
     .flingPower = 30,
     .naturalGiftPower = (NATURAL_GIFT_POWER_GEN < 6 ? 0 : 100),
     .naturalGiftType = 31,
@@ -44863,14 +44863,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM096] =
 {
-    ITEM_PRICE(5000),
-    .holdEffect = 0,
+    ITEM_PRICE(1600),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -44928,14 +44928,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM097] =
 {
-    ITEM_PRICE(15000),
-    .holdEffect = 0,
+    ITEM_PRICE(20000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -44993,14 +44993,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM098] =
 {
-    ITEM_PRICE(15000),
-    .holdEffect = 0,
+    ITEM_PRICE(12000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -45058,14 +45058,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM099] =
 {
-    ITEM_PRICE(10000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -45123,14 +45123,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM100] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = TYPE_NORMAL,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -48893,7 +48893,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SWAMPERTITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -48958,7 +48958,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SCEPTILITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49023,7 +49023,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SABLENITE] =
 {
-    ITEM_PRICE(15000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49088,7 +49088,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ALTARIANITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49153,7 +49153,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GALLADITE] =
 {
-    ITEM_PRICE(15000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49218,7 +49218,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AUDINITE] =
 {
-    ITEM_PRICE(15000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49283,7 +49283,7 @@ const ITEMDATA __data[] =
 
 [ITEM_METAGROSSITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49348,7 +49348,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SHARPEDONITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49413,7 +49413,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SLOWBRONITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49478,7 +49478,7 @@ const ITEMDATA __data[] =
 
 [ITEM_STEELIXITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49543,7 +49543,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PIDGEOTITE] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49608,7 +49608,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GLALITITE] =
 {
-    ITEM_PRICE(15000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49673,7 +49673,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DIANCITE] =
 {
-    ITEM_PRICE(30000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49738,7 +49738,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PRISON_BOTTLE] =
 {
-    ITEM_PRICE(25000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49746,13 +49746,13 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
-    .selectable = FALSE,
-    .fieldPocket = POCKET_ITEMS,
+    .prevent_toss = TRUE,
+    .selectable = TRUE,
+    .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 28,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -49765,7 +49765,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -49868,7 +49868,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CAMERUPTITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49933,7 +49933,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LOPUNNITE] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49998,7 +49998,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SALAMENCITE] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -50063,7 +50063,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BEEDRILLITE] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(0),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -71708,7 +71708,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RUSTED_SWORD] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(200),
     .holdEffect = HOLD_EFFECT_TRANSFORM_ZACIAN,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -71720,9 +71720,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -71735,7 +71735,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -71773,7 +71773,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RUSTED_SHIELD] =
 {
-    ITEM_PRICE(10000),
+    ITEM_PRICE(200),
     .holdEffect = HOLD_EFFECT_TRANSFORM_ZAMAZENTA,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -71785,9 +71785,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -71800,7 +71800,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -80028,7 +80028,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LONELY_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80093,7 +80093,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ADAMANT_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80158,7 +80158,7 @@ const ITEMDATA __data[] =
 
 [ITEM_NAUGHTY_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80223,7 +80223,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BRAVE_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80288,7 +80288,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BOLD_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80353,7 +80353,7 @@ const ITEMDATA __data[] =
 
 [ITEM_IMPISH_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80418,7 +80418,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LAX_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80483,7 +80483,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RELAXED_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80548,7 +80548,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MODEST_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80613,7 +80613,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MILD_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80678,7 +80678,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RASH_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80743,7 +80743,7 @@ const ITEMDATA __data[] =
 
 [ITEM_QUIET_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80808,7 +80808,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CALM_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80873,7 +80873,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GENTLE_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -80938,7 +80938,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CAREFUL_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -81003,7 +81003,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SASSY_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -81068,7 +81068,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TIMID_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -81133,7 +81133,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HASTY_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -81198,7 +81198,7 @@ const ITEMDATA __data[] =
 
 [ITEM_JOLLY_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -81263,7 +81263,7 @@ const ITEMDATA __data[] =
 
 [ITEM_NAIVE_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -81328,7 +81328,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SERIOUS_MINT] =
 {
-    ITEM_PRICE(1000),
+    ITEM_PRICE(20000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -109928,7 +109928,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BLACK_AUGURITE] =
 {
-    ITEM_PRICE(3000),
+    ITEM_PRICE(8000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -115648,7 +115648,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GRISEOUS_CORE] =
 {
-    ITEM_PRICE(25000),
+    ITEM_PRICE(10000),
     .holdEffect = HOLD_EFFECT_GIRATINA_BOOST_AND_TRANSFORM,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -115662,7 +115662,7 @@ const ITEMDATA __data[] =
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -118847,7 +118847,7 @@ const ITEMDATA __data[] =
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -140478,14 +140478,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM101] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140544,13 +140544,13 @@ const ITEMDATA __data[] =
 [ITEM_TM102] =
 {
     ITEM_PRICE(20000),
-    .holdEffect = 0,
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140608,14 +140608,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM103] =
 {
-    ITEM_PRICE(15000),
-    .holdEffect = 0,
+    ITEM_PRICE(20000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140673,14 +140673,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM104] =
 {
-    ITEM_PRICE(10000),
-    .holdEffect = 0,
+    ITEM_PRICE(6000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140738,14 +140738,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM105] =
 {
-    ITEM_PRICE(10000),
-    .holdEffect = 0,
+    ITEM_PRICE(20000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140803,14 +140803,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM106] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140868,14 +140868,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM107] =
 {
-    ITEM_PRICE(30000),
-    .holdEffect = 0,
+    ITEM_PRICE(12000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140933,14 +140933,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM108] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -140998,14 +140998,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM109] =
 {
-    ITEM_PRICE(30000),
-    .holdEffect = 0,
+    ITEM_PRICE(20000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141063,14 +141063,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM110] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(40000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141128,14 +141128,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM111] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141193,14 +141193,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM112] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141259,13 +141259,13 @@ const ITEMDATA __data[] =
 [ITEM_TM113] =
 {
     ITEM_PRICE(20000),
-    .holdEffect = 0,
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141323,14 +141323,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM114] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141388,14 +141388,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM115] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141453,14 +141453,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM116] =
 {
-    ITEM_PRICE(10000),
-    .holdEffect = 0,
+    ITEM_PRICE(20000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141518,14 +141518,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM117] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141583,14 +141583,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM118] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(40000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141648,14 +141648,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM119] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(40000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141713,14 +141713,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM120] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(40000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141778,14 +141778,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM121] =
 {
-    ITEM_PRICE(15000),
-    .holdEffect = 0,
+    ITEM_PRICE(20000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141843,14 +141843,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM122] =
 {
-    ITEM_PRICE(30000),
-    .holdEffect = 0,
+    ITEM_PRICE(12000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141908,14 +141908,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM123] =
 {
-    ITEM_PRICE(15000),
-    .holdEffect = 0,
+    ITEM_PRICE(32000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -141973,14 +141973,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM124] =
 {
-    ITEM_PRICE(20000),
-    .holdEffect = 0,
+    ITEM_PRICE(40000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -142038,14 +142038,14 @@ const ITEMDATA __data[] =
 
 [ITEM_TM125] =
 {
-    ITEM_PRICE(30000),
-    .holdEffect = 0,
+    ITEM_PRICE(40000),
+    .holdEffect = SOUBI_NONE,
     .holdEffectParam = 0,
-    .pluckEffect = 0,
-    .flingEffect = 0,
+    .pluckEffect = TUIBAMU_NONE,
+    .flingEffect = FALSE,
     .flingPower = 0,
     .naturalGiftPower = 0,
-    .naturalGiftType = 31,
+    .naturalGiftType = 18,
     .prevent_toss = FALSE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
@@ -166348,7 +166348,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CLEFABLITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166413,7 +166413,7 @@ const ITEMDATA __data[] =
 
 [ITEM_VICTREEBELITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166478,7 +166478,7 @@ const ITEMDATA __data[] =
 
 [ITEM_STARMINITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166543,7 +166543,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DRAGONINITE] =
 {
-    .price = 20000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166608,7 +166608,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MEGANIUMITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166673,7 +166673,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FERALIGITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166738,7 +166738,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SKARMORITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166803,7 +166803,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FROSLASSITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166868,7 +166868,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HEATRANITE] =
 {
-    .price = 30000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166933,7 +166933,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DARKRANITE] =
 {
-    .price = 30000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -166998,7 +166998,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EMBOARITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167063,7 +167063,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EXCADRITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167128,7 +167128,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SCOLIPITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167193,7 +167193,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SCRAFTINITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167258,7 +167258,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EELEKTROSSITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167453,7 +167453,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DELPHOXITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167518,7 +167518,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GRENINJITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167778,7 +167778,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BARBARACITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167843,7 +167843,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DRAGALGITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167908,7 +167908,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HAWLUCHANITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -167973,7 +167973,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ZYGARDITE] =
 {
-    .price = 50000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -168038,7 +168038,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DRAMPANITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -168103,7 +168103,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ZERAORITE] =
 {
-    .price = 30000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -168168,7 +168168,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FALINKSITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171288,7 +171288,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RAICHUNITE_X] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171353,7 +171353,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RAICHUNITE_Y] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171418,7 +171418,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHIMECHITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171483,7 +171483,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABSOLITE_Z] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171548,7 +171548,7 @@ const ITEMDATA __data[] =
 
 [ITEM_STARAPTITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171613,7 +171613,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GARCHOMPITE_Z] =
 {
-    .price = 20000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171678,7 +171678,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LUCARIONITE_Z] =
 {
-    .price = 20000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -171743,7 +171743,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GOLURKITE] =
 {
-    .price = 15000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -172003,7 +172003,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAGEARNITE] =
 {
-    .price = 30000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
